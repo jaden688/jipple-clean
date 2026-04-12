@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  color: white;
+  border-radius: 0.75rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /* A cool futuristic abstract background */
+  background: radial-gradient(circle at center, #0f172a 0%, #000000 100%);
+  background-image: 
+    radial-gradient(circle at 15% 50%, rgba(30, 58, 138, 0.4), transparent 50%),
+    radial-gradient(circle at 85% 30%, rgba(139, 92, 246, 0.2), transparent 50%);
+  font-family: 'Inter', system-ui, sans-serif;
+  color: white;
+  min-height: 100vh;
+  overflow: hidden;
+}
